@@ -67,16 +67,17 @@ def get_installable(profile, type):
 
 
 FLATPAKS = [
-    "com.github.wwmm.easyeffects",
     "com.obsproject.Studio",
     "com.usebottles.bottles",
+    "dev.vencord.Vesktop",
     "org.libreoffice.LibreOffice",
     "org.shotcut.Shotcut",
 ]
 
-AUR = ["opencode-bin", "helium-browser-bin", "yay"]
+AUR = ["helium-browser-bin", "yay", "code-marketplace"]
 
 BASIC = [
+    "ascii",
     "base",
     "base-devel",
     "bash-language-server",
@@ -120,6 +121,8 @@ BASIC = [
     "ripgrep",
     "ruff",
     "rust",
+    "sbctl",
+    "shfmt",
     "sudo",
     "tmux",
     "typescript",
@@ -128,6 +131,7 @@ BASIC = [
     "ufw",
     "unzip",
     "usbutils",
+    "uv",
     "vscode-css-languageserver",
     "vscode-html-languageserver",
     "vscode-json-languageserver",
@@ -147,14 +151,15 @@ DESKTOP = [
     "bluez",
     "bluez-utils",
     "calf",
+    "code",
     "deluge-gtk",
     "dmidecode",
     "dnsmasq",
     "eartag",
+    "easyeffects",
     "ffmpeg",
     "flatpak",
     "flatseal",
-    "ghostty",
     "gnome-calculator",
     "gnome-clocks",
     "gnome-disk-utility",
@@ -162,6 +167,7 @@ DESKTOP = [
     "gst-plugins-bad",
     "gvfs-mtp",
     "imagemagick",
+    "kitty",
     "loupe",
     "morphosis",
     "mpv",
@@ -172,8 +178,10 @@ DESKTOP = [
     "noto-fonts-extra",
     "ollama",
     "ollama-vulkan",
+    "opencode",
     "papers",
     "pdfarranger",
+    "pdftk",
     "pipewire",
     "pipewire-alsa",
     "pipewire-jack",
